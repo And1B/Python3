@@ -8,12 +8,7 @@ def calculate_insurance_cost(age, sex, bmi, num_of_children, smoker, person):
 def difference_in_cost (insurance_cost1, insurance_cost2):
   difference = insurance_cost1 - insurance_cost2
   print("The difference in cost between the two given insurances is: " + str(abs(difference)) + " dollars.")
-  
-#age (int)
-#sex (boolean) 0 for female
-#bmi (float)
-#num_of_children (int)
-#smoker(boolean) 0 for non-smoker
+ 
 
 # Estimate Maria's insurance cost
 maria_insurance_cost = calculate_insurance_cost(28, 0, 26.2, 3, 0, "Maria")

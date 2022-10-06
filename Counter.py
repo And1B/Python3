@@ -3,7 +3,6 @@ opening_inventory = ['shoes', 'shoes', 'skirt', 'jeans', 'blouse', 'shoes', 't-s
 
 closing_inventory = ['shoes', 'skirt', 'jeans', 'blouse', 'dress', 'skirt', 'shorts', 'jeans', 'dress', 'dress', 'jeans', 'dress', 'blouse']
 
-# Write your code below!
 from collections import Counter
 
 def find_amount_sold(opening, closing, item):

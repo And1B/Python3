@@ -42,4 +42,18 @@ class OrderProcessingDict(UserDict):
 process_dict = OrderProcessingDict(data)
 print(process_dict)
 print(process_dict.clean_orders())
+
+------------------------------------------------------------------------------------------------------
+
+from collections import UserList
+
+data = [4, 6, 8, 9, 5, 7, 3, 1, 0]
+
+class ListSorter(UserList):
+  def append(self, value):
+    super().append(value)
+    self.data.sort()
     
+sorted_list = ListSorter(data)
+sorted_list.append(2)
+print(sorted_list)    
